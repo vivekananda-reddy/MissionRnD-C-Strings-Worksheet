@@ -24,7 +24,11 @@ int main(){
 	//removeSpaces
 
 	//StrWordsinRev
-
+	char input[100] = "missionrnd    is    great";
+	char output[100] = "great    is    missionrnd";
+	int len = 25;
+	int i = 0;
+	str_words_in_rev(input, len);
 	//commonWords
 
 
