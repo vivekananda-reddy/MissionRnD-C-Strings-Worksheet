@@ -24,13 +24,12 @@ int main(){
 	//removeSpaces
 
 	//StrWordsinRev
-	char input[100] = "missionrnd    is    great";
-	char output[100] = "great    is    missionrnd";
-	int len = 25;
-	int i = 0;
-	str_words_in_rev(input, len);
-	//commonWords
 
+	//commonWords
+	char *str1 = "the are all is well";
+	char *str2 = "is who the";
+	//char expected[2][31] = { { "the" }, { "is" } };
+	char **res = commonWords(str1, str2);
 
 	return 0;
 }
